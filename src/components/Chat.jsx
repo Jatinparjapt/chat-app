@@ -44,7 +44,7 @@ const Chat = ({ userName }) => {
           backgroundImage: `url(${backgroundImage})`,
         }}
       >
-        <div className="flex flex-col mx-auto w-1/4 h-screen bg-white bg-opacity-80 rounded-lg shadow-xl">
+        <div className="flex flex-col mx-auto md:w-1/4 h-screen bg-white bg-opacity-80 rounded-lg shadow-xl">
           <div className="flex items-center justify-center bg-blue-500 text-white py-4 rounded-t-lg shadow-lg">
             <h1 className="text-xl font-semibold">Chatbot</h1>
           </div>
